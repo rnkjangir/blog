@@ -1,0 +1,29 @@
+!!! 5
+%html(lang="en")
+  %head
+    %meta(charset="utf-8")
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    %title= "Rails Tips"
+    = csrf_meta_tags
+    = stylesheet_link_tag "web_design", media: "all"
+  %body  
+    %section.wrapper
+      %header{id: "main"}
+        %a{href: "", id: "web-logo"}
+        %h1
+          %a{href: "", id: "web-head"}WEB DESIGN
+      %nav{id: "primary"}
+        %ul
+          %li 
+            %a{href: "/"} Home
+          %li 
+            %a{href: ""} Html
+          %li 
+            %a{href: ""} CSS
+          %li 
+            %a{href: ""} Html5
+          %li 
+            %a{href: ""} CSS3
+          %li 
+            %a{href: ""} Tips
+      = yield

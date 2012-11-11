@@ -1,0 +1,173 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ */
+body{
+background-color:#E3DBAC;
+padding: 0px;
+margin: 0px;
+/*font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;*/
+font-family: 'Merienda', cursive;
+font-size: 16px;
+}
+.title
+{
+  text-align: center;
+  font-size: 23px;
+}
+.sub-title
+{
+
+}
+#top-header
+{
+  background-color: #282828;
+  height: 80px;
+  border: solid 1px white;
+  box-shadow: 0px 0px 5px 5px rgb(136, 136, 136);
+}
+section#top
+{
+  margin: auto;
+  width: 1000px;
+}
+
+nav
+{
+
+}
+nav ul
+{
+  padding-top: 15px;
+  list-style: none outside none; 
+  margin: 0px;
+
+}
+nav ul li
+{
+  display: inline;
+  line-height: 50px;
+  
+}
+nav ul li a
+{
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  padding:  20px 50px 20px 50px; 
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav ul li a:hover
+{
+  background-color:  #E3DBAC;
+  color: #000;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.container
+{
+  margin: auto;
+  width: 1000px;
+  min-height: 600px;
+  padding-top: 10px;
+}
+.left-container{
+float: left;
+width: 70%;
+min-height: 600px;
+
+}
+.contant-header, .left-container h2
+{
+  background-color: #E0C21B;
+  text-align: center;
+  font-size: 23px;
+}
+.block
+{
+  background-color: #FFFFCC;  
+}
+
+.article, form
+{
+  margin: 10px;
+  border: solid 5px #fff;
+  background-color: #BCBCBC;
+  padding: 5px;
+}
+
+.article-header
+{
+  border-bottom: solid 1px #fff; 
+  background: #E0C91B;
+  margin-top: 0px;
+  padding-top: 1px;
+}
+.right-container{
+float: left;
+}
+form div
+{
+  padding: 10px;
+}
+form div label
+{
+  
+}
+form div input[type="email"],input[type="password"]
+{
+  width: 400px;
+  height: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.btn, 
+{
+  font-size: 20px;
+  background-color: #E0C21B;
+}
+form div input[type="submit"] {
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+form div input[type="submit"]:hover {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+form div input[type="submit"]:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5481;
+    border: solid 1px #203E5F;
+}
+
+

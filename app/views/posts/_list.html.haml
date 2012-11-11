@@ -1,0 +1,11 @@
+%h3 New Post
+= form_for(Post.new, class: "form-horizontal") do |f|
+  .control-label Title
+  .control-group= f.text_field :title
+
+  .control-label Body
+  .control-group= f.text_field :body
+
+  .control-group= f.submit "Save", class: "btn btn-success"
+
+

@@ -1,0 +1,16 @@
+%h2 Sign up
+
+= form_for(resource, :as => resource_name, :url => registration_path(resource_name), class: "form-horizontal") do |f| 
+  = devise_error_messages!
+
+  .control-label= f.label :email 
+  .control-group= f.email_field :email
+
+  .control-label=f.label :password 
+  .control-group= f.password_field :password 
+
+  .control-label= f.label :password_confirmation 
+  .control-group= f.password_field :password_confirmation
+
+  .control-group= f.submit "Sign up", class: "btn btn-success"
+= render "devise/shared/links" 

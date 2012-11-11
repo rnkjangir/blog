@@ -1,0 +1,19 @@
+/ .row-fluid
+/   - Post.find(:all, :order => "created_at desc", :limit => 3).each do |p|
+/     .span4
+/       %h2= p.title
+/       %p= p.body
+/       %p 
+/         %a{class: "btn",href: "#"}View details &raquo;
+%section.block
+  %header.contant-header.title Recent Posts
+  %section.article
+    %header.article-header.sub-title 
+      %h3 Restore Database from .sql file
+    %p
+  %section.article
+    %header.article-header.sub-title 
+      %h3 resolve conflict in PULL REQUEST on GitHub
+    %pre To resolve conflict in PULL REQUEST on GitHub <br/>step:1 git checkout &lt;your_branch&gt; <br/>step:2 git fetch upstream master<br/>step:3 git rebase upstream/master<br/>step:4 git push origin  -f<br/>step:5 send Pull Request<br/>If you getting Conflict error while rebasing your branch you just resolve the CONFLICT <br/>which are present in your files by removing merge head from these files and just add <br/>these files (don't COMMIT them) and then<br/>
+   
+       
